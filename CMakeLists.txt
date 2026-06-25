@@ -14,6 +14,7 @@ add_executable(CPP_Robotics
         Class1/dev/my_first_library/tools.cpp
         Class2/switch.cpp
         Class2/ifelse.cpp
+        Class2/dictionary.cpp
 )
 
 target_link_libraries(CPP_Robotics ${OpenCV_LIBS})
