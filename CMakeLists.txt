@@ -11,7 +11,10 @@ add_executable(CPP_Robotics
         Class1/compilation/main.cpp
         Class1/dev/my_first_library/main.cpp
         Class1/dev/my_first_library/tools.hpp
-        Class1/dev/my_first_library/tools.cpp)
+        Class1/dev/my_first_library/tools.cpp
+        Class2/switch.cpp
+        Class2/ifelse.cpp
+)
 
 target_link_libraries(CPP_Robotics ${OpenCV_LIBS})
 
